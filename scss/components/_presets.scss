@@ -1,0 +1,64 @@
+html {
+  min-height: 100vh;
+}
+
+body {
+  font-size: 14px;
+  font-family: "proxima-soft-condensed",sans-serif;
+  letter-spacing: .9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 44px;
+  line-height: 56px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  width: 90%;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-cta-color;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    color: $primary-cta-color * 1.1;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}

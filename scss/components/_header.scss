@@ -1,0 +1,72 @@
+.hidden {
+  pointer-events: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.mobile-menu {
+  svg {
+    width: 20px;
+    height: 20px;;
+  }
+}
+
+.logo {
+  width: 50%;
+  img {
+    width: 130px;
+    height: 50px;
+  }
+}
+
+nav {
+  width: 50%;
+  text-align: right;
+  ul {
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+  }
+
+  li {
+    margin: 0 10px;
+  }
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+  .mobile-menu {
+    display: none;
+  }
+
+  nav {
+    ul {
+      display: flex;
+    }
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+}
